@@ -14,5 +14,5 @@ Follow these steps:
 - add your `composer.json`
   - make sure the `url` for your custom Composer repository is set to `http://satis-repository`
 - `docker-compose up -d`
-- `docker-compose run satis build satis.json output -vvv`
-- `docker-compose run composer install -vvv`
+- `docker-compose run --rm satis build satis.json output -vvv`
+- `docker-compose run --rm composer install -vvv`
