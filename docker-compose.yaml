@@ -34,9 +34,7 @@ services:
     cap_drop:
     - ALL
     cap_add:
-    - SETUID
-    - SETGID
-    - DAC_OVERRIDE
+    - CHOWN
 
   composer:
     image: composer:1
@@ -52,6 +50,4 @@ services:
     cap_drop:
     - ALL
     cap_add:
-    - SETUID
-    - SETGID
-    - DAC_OVERRIDE
+    - CHOWN
