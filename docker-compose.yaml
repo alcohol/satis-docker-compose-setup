@@ -37,7 +37,7 @@ services:
     - CHOWN
 
   composer:
-    image: composer:1
+    image: composer
     container_name: satis-composer
     init: true
     user: ${UID}:${GID}
