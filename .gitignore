@@ -1,6 +1,10 @@
 # relevant configuration files
 /satis.json
 /composer.json
+/composer.lock
+
+# generated directories
+/vendor/
 
 # optional docker-compose override configuration
 /docker-composer.override.yaml
